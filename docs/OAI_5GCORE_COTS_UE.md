@@ -28,11 +28,11 @@ This tutorial assumes you have already completed the basic installation and conf
 
 - **UHD (USRP Hardware Driver)**  
   Full guide available at:  
-  [Tutorial UHD - OAI Unisinos](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/configs/TutorialUHD.md)
+  [Tutorial UHD - OAI Unisinos](../configs/TutorialUHD.md)
 
 - **OAI Core Network (CN5G)**  
   Installation and configuration guide available at:  
-  [OAI Core Network - CN5G Develop](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/core/OAICoreNetwork-CN5G-Develop.md)
+  [OAI Core Network - CN5G Develop](../core/OAICoreNetwork-CN5G-Develop.md)
 
 These tutorials provide the necessary foundation to prepare the environment before running the gNB and connecting the COTS UE.
 

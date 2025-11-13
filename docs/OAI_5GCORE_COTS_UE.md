@@ -83,7 +83,7 @@ The SIM programming process is essential to define parameters such as IMSI, MCC,
 The full step-by-step guide is available below:
 
 **SIM Programming Tutorial (Sysmocom)**  
-👉 [TutorialSIM_UECots.md](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/configs/TutorialSIM_UECots.md)
+👉 [TutorialSIM_UECots.md](../configs/TutorialSIM_UECots.md)
 
 > ⚠️ **Importante:** Certifique-se de realizar a programação do SIM Card antes de iniciar o processo de conexão do celular à rede 5G, pois o chip precisa estar configurado com as credenciais corretas do OAI Core.
 
@@ -117,7 +117,7 @@ Before connecting the phone to the 5G network, it is necessary to configure the 
 The complete step-by-step guide for this configuration is available in the tutorial below:
 
 📘 **5G Phone APN Configuration Tutorial**  
-👉 [TutorialAPN.md](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/configs/TutorialAPN.md)
+👉 [TutorialAPN.md](../configs/TutorialAPN.md)
 
 > ⚠️ **Important:**  
 > Make sure the APN uses the same **MCC**, **MNC**, and **DNN** configured in the Sysmocom SIM card and in the `config.yaml` file of the OAI Core.  

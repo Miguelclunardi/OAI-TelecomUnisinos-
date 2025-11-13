@@ -1,43 +1,28 @@
 # 📡 OAI-Unisinos: OpenAirInterface 5G/6G Lab Setup
 
 Welcome to the OAI-Unisinos repository!  
-This project documents our experimental setup and research work using **OpenAirInterface (OAI)** for **5G/6G radio networks**, deployed at **Universidade do Vale do Rio dos Sinos (Unisinos)**.
+This project documents our experimental setup and research work using **OpenAirInterface (OAI)** for **5G radio networks**, deployed at **Universidade do Vale do Rio dos Sinos (Unisinos)**.
 
 ---
 
 ## 📂 Folder Structure:
 
-- `docs/` - Documentation, diagrams, lab setup guides
-- `configs/` - Configuration files for OAI, USRP, Core, etc.
-- `scripts/` - Installation and deployment scripts
-- `ran/` - RAN-specific configurations, logs, notes
-- `core/` - Core network configurations (Open5GS, OAI CN)
-- `results/` - Logs, test results, network captures
-
----
-
-## 🎯 Project Goals:
-
-- Deploy a functional **5G Standalone (SA)** network using **OpenAirInterface**
-- Integrate with **USRP B210 SDR hardware**
-- Support experiments on **RAN**, **core network**, and **5G NR**
-- Create a reusable lab environment for future research and academic projects
+- `docs/` — Contains tutorials and guides for setting up different OAI-based environments, including CN5G, gNB, nrUE, and COTS UE configurations.  
+- `core/` — Configuration and deployment files for the **OAI Core Network (CN5G)**.  
+- `configs/` — Additional configuration files, such as **UHD**, **system setup**, and other environment dependencies.
 
 ---
 
 ## 🧑‍🔬 Current Hardware Setup:
 
-- **USRP B210** (Software Defined Radio)
-- **High-performance server** (Ubuntu 22.04 LTS)
-- Optional: **Raspberry Pi 4** for auxiliary nodes and monitoring
+- **USRP B210 or compatible radio** (Software Defined Radio)
+- **High-performance computer** (Ubuntu 22.04 LTS)
 
 ---
 
 ## 🏗️ Software Stack:
 
 - **OpenAirInterface (OAI)** - RAN and Core
-- **srsRAN** - For baseline testing
-- **Open5GS** - (Optional for future EPC tests)
 - **Docker** - For containerized deployments
 - **GnuRadio / UHD Drivers** - SDR support
 - **Wireshark** - Network traffic analysis
@@ -55,15 +40,6 @@ Planned sections:
 - Core Network Setup
 - UE Simulation / Testing
 - Troubleshooting
-
----
-
-## 📝 Documentation & Logs:
-
-- Lab setup steps
-- Test results
-- Network captures (where appropriate)
-- Known issues & solutions
 
 ---
 
@@ -85,9 +61,5 @@ Use of OAI or SDRs in live production networks without proper licensing and auth
 
 - [OpenAirInterface](https://openairinterface.org/)
 - [Ettus Research USRP B210](https://www.ettus.com/all-products/ub210-kit/)
-- [srsRAN](https://github.com/srsran/srsRAN_5G)
-- [Open5GS](https://open5gs.org/)
 
 ---
-
-Stay tuned for updates 🚀

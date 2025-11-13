@@ -7,7 +7,7 @@ This tutorial describes the process of configuring the **APN (Access Point Name)
 ## 1. Requirements
 
 - A 5G phone compatible with SA (Standalone) networks.  
-- A **Sysmocom** SIM card previously programmed (as described in [TutorialSIM_UECots.md](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/configs/TutorialSIM_UECots.md)).  
+- A **Sysmocom** SIM card previously programmed (as described in [TutorialSIM_UECots.md](TutorialSIM_UECots.md)).  
 - An application that allows **locking the phone to 5G**, such as *Force LTE Only* or *5G Only Mode*.  
 
 ---

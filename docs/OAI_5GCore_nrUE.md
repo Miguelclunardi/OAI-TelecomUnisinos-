@@ -24,7 +24,7 @@ This computer will be responsible for running both the **Core Network (CN5G)** a
 - **Radio Device:** USRP B210 (or equivalent)  
 
 For installation and configuration of the 5G Core, follow the detailed tutorial available at:  
-👉 [OAI Core Network — CN5G (Develop)](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/core/OAICoreNetwork-CN5G-Develop.md)
+👉 [OAI Core Network — CN5G (Develop)](../core/OAICoreNetwork-CN5G-Develop.md)
 
 ---
 ### Computer 2 — OAI nrUE
@@ -45,7 +45,7 @@ This machine will simulate the behavior of a real 5G device.
 Both the **Core/gNB** and the **UE** computers must have the **UHD (USRP Hardware Driver)** properly installed and configured.  
 The installation and compilation process can be followed in the official guide below:
 
-👉 [UHD Installation Tutorial](https://github.com/CristianFortunaR/OAI-Unisinos/blob/v1/configs/TutorialUHD.md)
+👉 [UHD Installation Tutorial](../configs/TutorialUHD.md)
 
 ---
 

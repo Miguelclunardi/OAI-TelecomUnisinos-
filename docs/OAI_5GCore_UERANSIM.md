@@ -9,7 +9,7 @@ This tutorial is recommended for studying the OAI 5G Core and understanding its 
 
 Before starting, make sure you have completed the **Basic Deployment** of the OAI Core version 1.5:
 
-* [OAI Core Network V1.5](https://github.com/CristianFortunaR/OAI-Unisinos/tree/main/core)
+* [OAI Core Network V1.5](../core/OAI Core Network-V1.5.md)
 
 ---
 
